@@ -10,9 +10,9 @@ close>4 AND sma(50,volume)>250000 AND close*volume>2000000 AND adr(20)>4 AND ti>
 close/min(21)
 ```
 
-[static charts](scans/Biggest_Gainers_1M__static.html)
+[Scan Results (static)](scans/Biggest_Gainers_1M__static.html)
 
-[interactive charts](scans/Biggest_Gainers_1M__interactive.html)
+[Scan Results (interactive)](scans/Biggest_Gainers_1M__interactive.html)
 
 ### Biggest Gainers 3M
         
@@ -25,9 +25,9 @@ close>4 AND sma(50,volume)>250000 AND close*volume>2000000 AND adr(20)>4 AND ti>
 close/min(63)
 ```
 
-[static charts](scans/Biggest_Gainers_3M__static.html)
+[Scan Results (static)](scans/Biggest_Gainers_3M__static.html)
 
-[interactive charts](scans/Biggest_Gainers_3M__interactive.html)
+[Scan Results (interactive)](scans/Biggest_Gainers_3M__interactive.html)
 
 ### Biggest Gainers 6M
         
@@ -40,9 +40,9 @@ close>4 AND sma(50,volume)>250000 AND close*volume>2000000 AND adr(20)>4 AND ti>
 close/min(126)
 ```
 
-[static charts](scans/Biggest_Gainers_6M__static.html)
+[Scan Results (static)](scans/Biggest_Gainers_6M__static.html)
 
-[interactive charts](scans/Biggest_Gainers_6M__interactive.html)
+[Scan Results (interactive)](scans/Biggest_Gainers_6M__interactive.html)
 
 ### Biggest Gainers 12M
         
@@ -55,9 +55,9 @@ close>4 AND sma(50,volume)>250000 AND close*volume>2000000 AND adr(20)>4 AND ti>
 close/min(252)
 ```
 
-[static charts](scans/Biggest_Gainers_12M__static.html)
+[Scan Results (static)](scans/Biggest_Gainers_12M__static.html)
 
-[interactive charts](scans/Biggest_Gainers_12M__interactive.html)
+[Scan Results (interactive)](scans/Biggest_Gainers_12M__interactive.html)
 
 ### 5 Day Gainers
         
@@ -70,9 +70,9 @@ close>4 AND sma(50,volume)>250000 AND close*volume>2000000 AND adr(20)>4 and clo
 close/close(5)
 ```
 
-[static charts](scans/5_Day_Gainers__static.html)
+[Scan Results (static)](scans/5_Day_Gainers__static.html)
 
-[interactive charts](scans/5_Day_Gainers__interactive.html)
+[Scan Results (interactive)](scans/5_Day_Gainers__interactive.html)
 
 ### Top Gainers
         
@@ -85,9 +85,9 @@ close>4 AND sma(50,volume)>200000 AND sma(50,volume)*close>2000000 AND roc>2
 close/close(1)
 ```
 
-[static charts](scans/Top_Gainers__static.html)
+[Scan Results (static)](scans/Top_Gainers__static.html)
 
-[interactive charts](scans/Top_Gainers__interactive.html)
+[Scan Results (interactive)](scans/Top_Gainers__interactive.html)
 
 ### Top Gainers From Open
         
@@ -100,9 +100,9 @@ close>4 AND sma(50,volume)>200000 AND sma(50,volume)*close>2000000 AND roc>2
 close/open
 ```
 
-[static charts](scans/Top_Gainers_From_Open__static.html)
+[Scan Results (static)](scans/Top_Gainers_From_Open__static.html)
 
-[interactive charts](scans/Top_Gainers_From_Open__interactive.html)
+[Scan Results (interactive)](scans/Top_Gainers_From_Open__interactive.html)
 
 ### Volume Gainers
         
@@ -115,9 +115,9 @@ close>4 AND sma(50,volume)>200000 AND sma(50,volume)*close>2000000 AND roc>0 AND
 volume/sma(50,volume)
 ```
 
-[static charts](scans/Volume_Gainers__static.html)
+[Scan Results (static)](scans/Volume_Gainers__static.html)
 
-[interactive charts](scans/Volume_Gainers__interactive.html)
+[Scan Results (interactive)](scans/Volume_Gainers__interactive.html)
 
 ### 52W High
         
@@ -130,9 +130,9 @@ close>4 AND sma(50,volume)>200000 AND sma(50,volume)*close>2000000 AND close=max
 volume/sma(50,volume)
 ```
 
-[static charts](scans/52W_High__static.html)
+[Scan Results (static)](scans/52W_High__static.html)
 
-[interactive charts](scans/52W_High__interactive.html)
+[Scan Results (interactive)](scans/52W_High__interactive.html)
 
 ### Bens Power of 3
         
@@ -145,24 +145,24 @@ close>4 AND sma(50,volume)>200000 AND sma(50,volume)*close>2000000 AND close/ema
 ibd_rs
 ```
 
-[static charts](scans/Bens_Power_of_3__static.html)
+[Scan Results (static)](scans/Bens_Power_of_3__static.html)
 
-[interactive charts](scans/Bens_Power_of_3__interactive.html)
+[Scan Results (interactive)](scans/Bens_Power_of_3__interactive.html)
 
 ### Bens Velocity
         
 
 ```python
 # Query
-close>4 AND sma(50,volume)>200000 AND esma(50,volume)*close>2000000 AND close/close(1)>1.03 AND volume/sma(50,volume)>1.3 AND ibd_rs_rank>70 AND float_shares<100000000 AND ti>1.05
+close>4 AND sma(50,volume)>200000 AND sma(50,volume)*close>2000000 AND close/close(1)>1.03 AND volume/sma(50,volume)>1.3 AND ibd_rs_rank>70 AND float_shares<100000000 AND ti>1.05
 
 # Sort by
 ibd_rs_3m
 ```
 
-[static charts](scans/Bens_Velocity__static.html)
+[Scan Results (static)](scans/Bens_Velocity__static.html)
 
-[interactive charts](scans/Bens_Velocity__interactive.html)
+[Scan Results (interactive)](scans/Bens_Velocity__interactive.html)
 
 ### Bens Focus
         
@@ -175,9 +175,9 @@ close>4 AND sma(50,volume)>200000 AND sma(50,volume)*close>2000000 AND ibd_indus
 ibd_rs_3m
 ```
 
-[static charts](scans/Bens_Focus__static.html)
+[Scan Results (static)](scans/Bens_Focus__static.html)
 
-[interactive charts](scans/Bens_Focus__interactive.html)
+[Scan Results (interactive)](scans/Bens_Focus__interactive.html)
 
 ### Blake Davis Strength
         
@@ -190,9 +190,9 @@ close>7 AND sma(50,volume)>200000 AND sma(50,volume)*close>2000000 AND ibd_rs_ra
 ibd_rs_3m
 ```
 
-[static charts](scans/Blake_Davis_Strength__static.html)
+[Scan Results (static)](scans/Blake_Davis_Strength__static.html)
 
-[interactive charts](scans/Blake_Davis_Strength__interactive.html)
+[Scan Results (interactive)](scans/Blake_Davis_Strength__interactive.html)
 
 ### RSNHBP
         
@@ -205,9 +205,9 @@ rs=max(252,rs) AND sma(50,volume)>200000 AND sma(50,volume)*close>2000000
 close/min(63)
 ```
 
-[static charts](scans/RSNHBP__static.html)
+[Scan Results (static)](scans/RSNHBP__static.html)
 
-[interactive charts](scans/RSNHBP__interactive.html)
+[Scan Results (interactive)](scans/RSNHBP__interactive.html)
 
 ### EP with Growth
         
@@ -220,9 +220,9 @@ close>4 AND sma(20)>sma(50) AND close>sma(50) AND sma(50,volume)>200000 AND sma(
 volume/sma(50,volume)
 ```
 
-[static charts](scans/EP_with_Growth__static.html)
+[Scan Results (static)](scans/EP_with_Growth__static.html)
 
-[interactive charts](scans/EP_with_Growth__interactive.html)
+[Scan Results (interactive)](scans/EP_with_Growth__interactive.html)
 
 ### EP
         
@@ -235,99 +235,99 @@ close>4 AND sma(20)>sma(50) AND close>sma(50) AND sma(50,volume)>200000 AND sma(
 volume/sma(50,volume)
 ```
 
-[static charts](scans/EP__static.html)
+[Scan Results (static)](scans/EP__static.html)
 
-[interactive charts](scans/EP__interactive.html)
+[Scan Results (interactive)](scans/EP__interactive.html)
 
 ### Bradass Pocket Pivot EOD
         
 
 ```python
 # Query
-close>3 AND sma(50,volume)>200000 AND sma(50,volume)*close>2000000 AND volume>ema(50,volume) AND close/close(1)>=1.05 AND close>ema(200) AND (high-close)/(close-low)<0.5 AND pp
+close>3 AND sma(50,volume)>200000 AND sma(50,volume)*close>2000000 AND volume>ema(50,volume) AND close/close(1)>=1.05 AND close>ema(200) AND high-close<0.5*close-0.5*low AND pp
 
 # Sort by
 volume/sma(50,volume)
 ```
 
-[static charts](scans/Bradass_Pocket_Pivot_EOD__static.html)
+[Scan Results (static)](scans/Bradass_Pocket_Pivot_EOD__static.html)
 
-[interactive charts](scans/Bradass_Pocket_Pivot_EOD__interactive.html)
+[Scan Results (interactive)](scans/Bradass_Pocket_Pivot_EOD__interactive.html)
 
 ### Stockbees 4% Gainers
         
 
 ```python
 # Query
-close>4 AND close/close(1)>1.04 AND close(1)-open(1)<close-open AND close(1)/close(2)<=1.02 AND sma(50,volume)>200000 AND volume>volume(1) AND (close-low)/(high-low)>0.7
+close>4 AND close/close(1)>1.04 AND close(1)-open(1)<close-open AND close(1)/close(2)<=1.02 AND sma(50,volume)>200000 AND volume>volume(1) AND close-low>0.7*high-0.7*low
 
 # Sort by
 roc
 ```
 
-[static charts](scans/Stockbees_4%_Gainers__static.html)
+[Scan Results (static)](scans/Stockbees_4%_Gainers__static.html)
 
-[interactive charts](scans/Stockbees_4%_Gainers__interactive.html)
+[Scan Results (interactive)](scans/Stockbees_4%_Gainers__interactive.html)
 
 ### Stockbees Combo
         
 
 ```python
 # Query
-close-open>0.9 AND volume>200000 AND close(1)-open(1)<close-open AND close(1)/close(2)<1.02 AND (close-low)/(high-low)>0.7 AND close>3 OR close>4 AND close/close(1)>1.04 AND close(1)/close(2)<=1.02 AND volume>200000 AND volume>volume(1) AND (close-low)/(high-low)>0.7 AND close>3
+close-open>0.9 AND volume>200000 AND close(1)-open(1)<close-open AND close(1)/close(2)<1.02 AND close-low>0.7*high-0.7*low AND close>3 OR close>4 AND close/close(1)>1.04 AND close(1)/close(2)<=1.02 AND volume>200000 AND volume>volume(1) AND close-low>0.7*high-0.7*low AND close>3
 
 # Sort by
 roc
 ```
 
-[static charts](scans/Stockbees_Combo__static.html)
+[Scan Results (static)](scans/Stockbees_Combo__static.html)
 
-[interactive charts](scans/Stockbees_Combo__interactive.html)
+[Scan Results (interactive)](scans/Stockbees_Combo__interactive.html)
 
 ### Stockbees Ants
         
 
 ```python
 # Query
-close>3 min(3,volume)>100000 AND ti>1.04 AND close/close(1)>=-1 AND close/close(1)<=1
+close>3 AND min(3,volume)>100000 AND ti>1.04 AND close/close(1)>=-1 AND close/close(1)<=1
 
 # Sort by
 close/close(1)
 ```
 
-[static charts](scans/Stockbees_Ants__static.html)
+[Scan Results (static)](scans/Stockbees_Ants__static.html)
 
-[interactive charts](scans/Stockbees_Ants__interactive.html)
+[Scan Results (interactive)](scans/Stockbees_Ants__interactive.html)
 
 ### Stockbees Breakout 3M Base
         
 
 ```python
 # Query
-close(1)/min(63)<=1.1 AND close/max(63)>=0.9 AND close/close(1)>=1.04 AND volume>200000 AND volume/volume(1) AND sma(50,volume)*close>2000000 AND (close-low)/(high-low)>0.7
+close(1)/min(63)<=1.1 AND close/max(63)>=0.9 AND close/close(1)>=1.04 AND volume>200000 AND volume/volume(1) AND sma(50,volume)*close>2000000 AND close-low>0.7*high-0.7*low
 
 # Sort by
 close/min(126)
 ```
 
-[static charts](scans/Stockbees_Breakout_3M_Base__static.html)
+[Scan Results (static)](scans/Stockbees_Breakout_3M_Base__static.html)
 
-[interactive charts](scans/Stockbees_Breakout_3M_Base__interactive.html)
+[Scan Results (interactive)](scans/Stockbees_Breakout_3M_Base__interactive.html)
 
 ### Stockbees Breakout 1M Base
         
 
 ```python
 # Query
-close(1)/min(21)<=1.1 AND close/max(21)>=0.9 AND close/close(1)>=1.04 AND volume>200000 AND volume/volume(1) AND sma(50,volume)*close>2000000 AND (close-low)/(high-low)>0.7
+close(1)/min(21)<=1.1 AND close/max(21)>=0.9 AND close/close(1)>=1.04 AND volume>200000 AND volume/volume(1) AND sma(50,volume)*close>2000000 AND close-low>0.7*high-0.7*low
 
 # Sort by
 close/min(63)
 ```
 
-[static charts](scans/Stockbees_Breakout_1M_Base__static.html)
+[Scan Results (static)](scans/Stockbees_Breakout_1M_Base__static.html)
 
-[interactive charts](scans/Stockbees_Breakout_1M_Base__interactive.html)
+[Scan Results (interactive)](scans/Stockbees_Breakout_1M_Base__interactive.html)
 
 ### Darvas Scan
         
@@ -340,9 +340,9 @@ close>4 AND close/max(252)>0.85 AND close/min(252)>=2 AND ibd_sect_rs_rank>80 AN
 close/min(252)
 ```
 
-[static charts](scans/Darvas_Scan__static.html)
+[Scan Results (static)](scans/Darvas_Scan__static.html)
 
-[interactive charts](scans/Darvas_Scan__interactive.html)
+[Scan Results (interactive)](scans/Darvas_Scan__interactive.html)
 
 ### Darvas Scan with Growth
         
@@ -355,9 +355,9 @@ close>4 AND close/max(252)>0.85 AND close/min(252)>=2 AND ibd_sect_rs_rank>80 AN
 close/min(252)
 ```
 
-[static charts](scans/Darvas_Scan_with_Growth__static.html)
+[Scan Results (static)](scans/Darvas_Scan_with_Growth__static.html)
 
-[interactive charts](scans/Darvas_Scan_with_Growth__interactive.html)
+[Scan Results (interactive)](scans/Darvas_Scan_with_Growth__interactive.html)
 
 ### Insiders
         
@@ -370,9 +370,9 @@ close>4 AND close<20 AND sma(50,volume)>200000 AND sma(50,volume)*close>2000000 
 close/min(252)
 ```
 
-[static charts](scans/Insiders__static.html)
+[Scan Results (static)](scans/Insiders__static.html)
 
-[interactive charts](scans/Insiders__interactive.html)
+[Scan Results (interactive)](scans/Insiders__interactive.html)
 
 ### High Trend Intensity
         
@@ -385,9 +385,9 @@ close>4 AND close<20 AND sma(50,volume)>200000 AND sma(50,volume)*close>2000000 
 close/min(126)
 ```
 
-[static charts](scans/High_Trend_Intensity__static.html)
+[Scan Results (static)](scans/High_Trend_Intensity__static.html)
 
-[interactive charts](scans/High_Trend_Intensity__interactive.html)
+[Scan Results (interactive)](scans/High_Trend_Intensity__interactive.html)
 
 ### HTF
         
@@ -400,7 +400,7 @@ close>4 AND sma(20,volume)>250000 AND slope(10,sma(50,volume))<0 AND close>sma(5
 sctr
 ```
 
-[static charts](scans/HTF__static.html)
+[Scan Results (static)](scans/HTF__static.html)
 
-[interactive charts](scans/HTF__interactive.html)
+[Scan Results (interactive)](scans/HTF__interactive.html)
 
