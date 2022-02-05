@@ -1,7 +1,6 @@
 # Legouts Stockmarket Scans
 
 
-
 ## Biggest Gainers 1M
         
 
@@ -13,8 +12,6 @@ close>4 AND sma(50,volume)>250000 AND close*volume>2000000 AND adr(20)>4 AND ti>
 close/min(21)
 ```
 [Show Minicharts](scans/Biggest_Gainers_1M__static__mini.html)
-
-[Show Interactive Minicharts (may be slow)](scans/Biggest_Gainers_1M__static__mini.html)
 
 [Show Charts](scans/Biggest_Gainers_1M__static.html)
 
@@ -33,8 +30,6 @@ close/min(63)
 ```
 [Show Minicharts](scans/Biggest_Gainers_3M__static__mini.html)
 
-[Show Interactive Minicharts (may be slow)](scans/Biggest_Gainers_3M__static__mini.html)
-
 [Show Charts](scans/Biggest_Gainers_3M__static.html)
 
 [Show Interactive Charts (may be slow)](scans/Biggest_Gainers_3M__interactive.html)
@@ -51,8 +46,6 @@ close>4 AND sma(50,volume)>250000 AND close*volume>2000000 AND adr(20)>4 AND ti>
 close/min(126)
 ```
 [Show Minicharts](scans/Biggest_Gainers_6M__static__mini.html)
-
-[Show Interactive Minicharts (may be slow)](scans/Biggest_Gainers_6M__static__mini.html)
 
 [Show Charts](scans/Biggest_Gainers_6M__static.html)
 
@@ -71,8 +64,6 @@ close/min(252)
 ```
 [Show Minicharts](scans/Biggest_Gainers_12M__static__mini.html)
 
-[Show Interactive Minicharts (may be slow)](scans/Biggest_Gainers_12M__static__mini.html)
-
 [Show Charts](scans/Biggest_Gainers_12M__static.html)
 
 [Show Interactive Charts (may be slow)](scans/Biggest_Gainers_12M__interactive.html)
@@ -89,8 +80,6 @@ close>4 AND sma(50,volume)>250000 AND close*volume>2000000 AND adr(20)>4 and clo
 close/close(5)
 ```
 [Show Minicharts](scans/5_Day_Gainers__static__mini.html)
-
-[Show Interactive Minicharts (may be slow)](scans/5_Day_Gainers__static__mini.html)
 
 [Show Charts](scans/5_Day_Gainers__static.html)
 
@@ -109,8 +98,6 @@ close/close(1)
 ```
 [Show Minicharts](scans/Top_Gainers__static__mini.html)
 
-[Show Interactive Minicharts (may be slow)](scans/Top_Gainers__static__mini.html)
-
 [Show Charts](scans/Top_Gainers__static.html)
 
 [Show Interactive Charts (may be slow)](scans/Top_Gainers__interactive.html)
@@ -127,8 +114,6 @@ close>4 AND sma(50,volume)>200000 AND sma(50,volume)*close>2000000 AND close/clo
 close/open
 ```
 [Show Minicharts](scans/Top_Gainers_From_Open__static__mini.html)
-
-[Show Interactive Minicharts (may be slow)](scans/Top_Gainers_From_Open__static__mini.html)
 
 [Show Charts](scans/Top_Gainers_From_Open__static.html)
 
@@ -147,8 +132,6 @@ volume/sma(50,volume)
 ```
 [Show Minicharts](scans/Volume_Gainers__static__mini.html)
 
-[Show Interactive Minicharts (may be slow)](scans/Volume_Gainers__static__mini.html)
-
 [Show Charts](scans/Volume_Gainers__static.html)
 
 [Show Interactive Charts (may be slow)](scans/Volume_Gainers__interactive.html)
@@ -165,8 +148,6 @@ close>4 AND sma(50,volume)>200000 AND sma(50,volume)*close>2000000 AND close=max
 volume/sma(50,volume)
 ```
 [Show Minicharts](scans/52W_High__static__mini.html)
-
-[Show Interactive Minicharts (may be slow)](scans/52W_High__static__mini.html)
 
 [Show Charts](scans/52W_High__static.html)
 
@@ -185,8 +166,6 @@ ibd_rs
 ```
 [Show Minicharts](scans/Bens_Power_of_3__static__mini.html)
 
-[Show Interactive Minicharts (may be slow)](scans/Bens_Power_of_3__static__mini.html)
-
 [Show Charts](scans/Bens_Power_of_3__static.html)
 
 [Show Interactive Charts (may be slow)](scans/Bens_Power_of_3__interactive.html)
@@ -203,8 +182,6 @@ close>4 AND sma(50,volume)>200000 AND sma(50,volume)*close>2000000 AND close/clo
 ibd_rs_3m
 ```
 [Show Minicharts](scans/Bens_Velocity__static__mini.html)
-
-[Show Interactive Minicharts (may be slow)](scans/Bens_Velocity__static__mini.html)
 
 [Show Charts](scans/Bens_Velocity__static.html)
 
@@ -223,8 +200,6 @@ ibd_rs_3m
 ```
 [Show Minicharts](scans/Bens_Focus__static__mini.html)
 
-[Show Interactive Minicharts (may be slow)](scans/Bens_Focus__static__mini.html)
-
 [Show Charts](scans/Bens_Focus__static.html)
 
 [Show Interactive Charts (may be slow)](scans/Bens_Focus__interactive.html)
@@ -241,8 +216,6 @@ close>7 AND sma(50,volume)>200000 AND sma(50,volume)*close>2000000 AND ibd_rs_ra
 ibd_rs_3m
 ```
 [Show Minicharts](scans/Blake_Davis_Strength__static__mini.html)
-
-[Show Interactive Minicharts (may be slow)](scans/Blake_Davis_Strength__static__mini.html)
 
 [Show Charts](scans/Blake_Davis_Strength__static.html)
 
@@ -261,8 +234,6 @@ close/min(63)
 ```
 [Show Minicharts](scans/RSNHBP__static__mini.html)
 
-[Show Interactive Minicharts (may be slow)](scans/RSNHBP__static__mini.html)
-
 [Show Charts](scans/RSNHBP__static.html)
 
 [Show Interactive Charts (may be slow)](scans/RSNHBP__interactive.html)
@@ -279,8 +250,6 @@ close>4 AND sma(20)>sma(50) AND close>sma(50) AND sma(50,volume)>200000 AND sma(
 volume/sma(50,volume)
 ```
 [Show Minicharts](scans/EP_with_Growth__static__mini.html)
-
-[Show Interactive Minicharts (may be slow)](scans/EP_with_Growth__static__mini.html)
 
 [Show Charts](scans/EP_with_Growth__static.html)
 
@@ -299,8 +268,6 @@ volume/sma(50,volume)
 ```
 [Show Minicharts](scans/EP__static__mini.html)
 
-[Show Interactive Minicharts (may be slow)](scans/EP__static__mini.html)
-
 [Show Charts](scans/EP__static.html)
 
 [Show Interactive Charts (may be slow)](scans/EP__interactive.html)
@@ -317,8 +284,6 @@ close>3 AND sma(50,volume)>200000 AND sma(50,volume)*close>2000000 AND volume>em
 volume/sma(50,volume)
 ```
 [Show Minicharts](scans/Bradass_Pocket_Pivot_EOD__static__mini.html)
-
-[Show Interactive Minicharts (may be slow)](scans/Bradass_Pocket_Pivot_EOD__static__mini.html)
 
 [Show Charts](scans/Bradass_Pocket_Pivot_EOD__static.html)
 
@@ -337,8 +302,6 @@ close/close(1)
 ```
 [Show Minicharts](scans/Stockbees_4%_Gainers__static__mini.html)
 
-[Show Interactive Minicharts (may be slow)](scans/Stockbees_4%_Gainers__static__mini.html)
-
 [Show Charts](scans/Stockbees_4%_Gainers__static.html)
 
 [Show Interactive Charts (may be slow)](scans/Stockbees_4%_Gainers__interactive.html)
@@ -355,8 +318,6 @@ close-open>0.9 AND volume>200000 AND close(1)-open(1)<close-open AND close(1)/cl
 close/close(1)
 ```
 [Show Minicharts](scans/Stockbees_Combo__static__mini.html)
-
-[Show Interactive Minicharts (may be slow)](scans/Stockbees_Combo__static__mini.html)
 
 [Show Charts](scans/Stockbees_Combo__static.html)
 
@@ -375,8 +336,6 @@ close/close(1)
 ```
 [Show Minicharts](scans/Stockbees_Ants__static__mini.html)
 
-[Show Interactive Minicharts (may be slow)](scans/Stockbees_Ants__static__mini.html)
-
 [Show Charts](scans/Stockbees_Ants__static.html)
 
 [Show Interactive Charts (may be slow)](scans/Stockbees_Ants__interactive.html)
@@ -393,8 +352,6 @@ close(1)/min(63)<=1.1 AND close/max(63)>=0.9 AND close/close(1)>=1.04 AND volume
 close/min(126)
 ```
 [Show Minicharts](scans/Stockbees_Breakout_3M_Base__static__mini.html)
-
-[Show Interactive Minicharts (may be slow)](scans/Stockbees_Breakout_3M_Base__static__mini.html)
 
 [Show Charts](scans/Stockbees_Breakout_3M_Base__static.html)
 
@@ -413,8 +370,6 @@ close/min(63)
 ```
 [Show Minicharts](scans/Stockbees_Breakout_1M_Base__static__mini.html)
 
-[Show Interactive Minicharts (may be slow)](scans/Stockbees_Breakout_1M_Base__static__mini.html)
-
 [Show Charts](scans/Stockbees_Breakout_1M_Base__static.html)
 
 [Show Interactive Charts (may be slow)](scans/Stockbees_Breakout_1M_Base__interactive.html)
@@ -431,8 +386,6 @@ close>4 AND close/max(252)>0.85 AND close/min(252)>=2 AND ibd_sect_rs_rank>80 AN
 close/min(252)
 ```
 [Show Minicharts](scans/Darvas_Scan__static__mini.html)
-
-[Show Interactive Minicharts (may be slow)](scans/Darvas_Scan__static__mini.html)
 
 [Show Charts](scans/Darvas_Scan__static.html)
 
@@ -451,8 +404,6 @@ close/min(252)
 ```
 [Show Minicharts](scans/Darvas_Scan_with_Growth__static__mini.html)
 
-[Show Interactive Minicharts (may be slow)](scans/Darvas_Scan_with_Growth__static__mini.html)
-
 [Show Charts](scans/Darvas_Scan_with_Growth__static.html)
 
 [Show Interactive Charts (may be slow)](scans/Darvas_Scan_with_Growth__interactive.html)
@@ -469,8 +420,6 @@ close>4 AND close<20 AND sma(50,volume)>200000 AND sma(50,volume)*close>2000000 
 close/min(252)
 ```
 [Show Minicharts](scans/Insiders__static__mini.html)
-
-[Show Interactive Minicharts (may be slow)](scans/Insiders__static__mini.html)
 
 [Show Charts](scans/Insiders__static.html)
 
@@ -489,8 +438,6 @@ close/min(126)
 ```
 [Show Minicharts](scans/High_Trend_Intensity__static__mini.html)
 
-[Show Interactive Minicharts (may be slow)](scans/High_Trend_Intensity__static__mini.html)
-
 [Show Charts](scans/High_Trend_Intensity__static.html)
 
 [Show Interactive Charts (may be slow)](scans/High_Trend_Intensity__interactive.html)
@@ -507,8 +454,6 @@ close>4 AND sma(20,volume)>250000 AND slope(10,sma(50,volume))<0 AND close>sma(5
 sctr
 ```
 [Show Minicharts](scans/HTF__static__mini.html)
-
-[Show Interactive Minicharts (may be slow)](scans/HTF__static__mini.html)
 
 [Show Charts](scans/HTF__static.html)
 
