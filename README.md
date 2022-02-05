@@ -1,5 +1,8 @@
 # Legouts Stockmarket Scans
-### Biggest Gainers 1M
+
+
+
+## Biggest Gainers 1M
         
 
 ```python
@@ -9,12 +12,16 @@ close>4 AND sma(50,volume)>250000 AND close*volume>2000000 AND adr(20)>4 AND ti>
 # Sort by
 close/min(21)
 ```
+[Show Minicharts](scans/Biggest_Gainers_1M__static__mini.html)
 
-[Scan Results (static)](scans/Biggest_Gainers_1M__static.html)
+[Show Interactive Minicharts (may be slow)](scans/Biggest_Gainers_1M__static__mini.html)
 
-[Scan Results (interactive)](scans/Biggest_Gainers_1M__interactive.html)
+[Show Charts](scans/Biggest_Gainers_1M__static.html)
 
-### Biggest Gainers 3M
+[Show Interactive Charts (may be slow)](scans/Biggest_Gainers_1M__interactive.html)
+
+
+## Biggest Gainers 3M
         
 
 ```python
@@ -24,12 +31,16 @@ close>4 AND sma(50,volume)>250000 AND close*volume>2000000 AND adr(20)>4 AND ti>
 # Sort by
 close/min(63)
 ```
+[Show Minicharts](scans/Biggest_Gainers_3M__static__mini.html)
 
-[Scan Results (static)](scans/Biggest_Gainers_3M__static.html)
+[Show Interactive Minicharts (may be slow)](scans/Biggest_Gainers_3M__static__mini.html)
 
-[Scan Results (interactive)](scans/Biggest_Gainers_3M__interactive.html)
+[Show Charts](scans/Biggest_Gainers_3M__static.html)
 
-### Biggest Gainers 6M
+[Show Interactive Charts (may be slow)](scans/Biggest_Gainers_3M__interactive.html)
+
+
+## Biggest Gainers 6M
         
 
 ```python
@@ -39,12 +50,16 @@ close>4 AND sma(50,volume)>250000 AND close*volume>2000000 AND adr(20)>4 AND ti>
 # Sort by
 close/min(126)
 ```
+[Show Minicharts](scans/Biggest_Gainers_6M__static__mini.html)
 
-[Scan Results (static)](scans/Biggest_Gainers_6M__static.html)
+[Show Interactive Minicharts (may be slow)](scans/Biggest_Gainers_6M__static__mini.html)
 
-[Scan Results (interactive)](scans/Biggest_Gainers_6M__interactive.html)
+[Show Charts](scans/Biggest_Gainers_6M__static.html)
 
-### Biggest Gainers 12M
+[Show Interactive Charts (may be slow)](scans/Biggest_Gainers_6M__interactive.html)
+
+
+## Biggest Gainers 12M
         
 
 ```python
@@ -54,12 +69,16 @@ close>4 AND sma(50,volume)>250000 AND close*volume>2000000 AND adr(20)>4 AND ti>
 # Sort by
 close/min(252)
 ```
+[Show Minicharts](scans/Biggest_Gainers_12M__static__mini.html)
 
-[Scan Results (static)](scans/Biggest_Gainers_12M__static.html)
+[Show Interactive Minicharts (may be slow)](scans/Biggest_Gainers_12M__static__mini.html)
 
-[Scan Results (interactive)](scans/Biggest_Gainers_12M__interactive.html)
+[Show Charts](scans/Biggest_Gainers_12M__static.html)
 
-### 5 Day Gainers
+[Show Interactive Charts (may be slow)](scans/Biggest_Gainers_12M__interactive.html)
+
+
+## 5 Day Gainers
         
 
 ```python
@@ -69,57 +88,73 @@ close>4 AND sma(50,volume)>250000 AND close*volume>2000000 AND adr(20)>4 and clo
 # Sort by
 close/close(5)
 ```
+[Show Minicharts](scans/5_Day_Gainers__static__mini.html)
 
-[Scan Results (static)](scans/5_Day_Gainers__static.html)
+[Show Interactive Minicharts (may be slow)](scans/5_Day_Gainers__static__mini.html)
 
-[Scan Results (interactive)](scans/5_Day_Gainers__interactive.html)
+[Show Charts](scans/5_Day_Gainers__static.html)
 
-### Top Gainers
+[Show Interactive Charts (may be slow)](scans/5_Day_Gainers__interactive.html)
+
+
+## Top Gainers
         
 
 ```python
 # Query
-close>4 AND sma(50,volume)>200000 AND sma(50,volume)*close>2000000 AND roc>2
+close>4 AND sma(50,volume)>200000 AND sma(50,volume)*close>2000000 AND close/close(1)>2
 
 # Sort by
 close/close(1)
 ```
+[Show Minicharts](scans/Top_Gainers__static__mini.html)
 
-[Scan Results (static)](scans/Top_Gainers__static.html)
+[Show Interactive Minicharts (may be slow)](scans/Top_Gainers__static__mini.html)
 
-[Scan Results (interactive)](scans/Top_Gainers__interactive.html)
+[Show Charts](scans/Top_Gainers__static.html)
 
-### Top Gainers From Open
+[Show Interactive Charts (may be slow)](scans/Top_Gainers__interactive.html)
+
+
+## Top Gainers From Open
         
 
 ```python
 # Query
-close>4 AND sma(50,volume)>200000 AND sma(50,volume)*close>2000000 AND roc>2
+close>4 AND sma(50,volume)>200000 AND sma(50,volume)*close>2000000 AND close/close(1)>2
 
 # Sort by
 close/open
 ```
+[Show Minicharts](scans/Top_Gainers_From_Open__static__mini.html)
 
-[Scan Results (static)](scans/Top_Gainers_From_Open__static.html)
+[Show Interactive Minicharts (may be slow)](scans/Top_Gainers_From_Open__static__mini.html)
 
-[Scan Results (interactive)](scans/Top_Gainers_From_Open__interactive.html)
+[Show Charts](scans/Top_Gainers_From_Open__static.html)
 
-### Volume Gainers
+[Show Interactive Charts (may be slow)](scans/Top_Gainers_From_Open__interactive.html)
+
+
+## Volume Gainers
         
 
 ```python
 # Query
-close>4 AND sma(50,volume)>200000 AND sma(50,volume)*close>2000000 AND roc>0 AND volume/sma(50,volume)>2
+close>4 AND sma(50,volume)>200000 AND sma(50,volume)*close>2000000 AND close/close(1)>0 AND volume/sma(50,volume)>2
 
 # Sort by
 volume/sma(50,volume)
 ```
+[Show Minicharts](scans/Volume_Gainers__static__mini.html)
 
-[Scan Results (static)](scans/Volume_Gainers__static.html)
+[Show Interactive Minicharts (may be slow)](scans/Volume_Gainers__static__mini.html)
 
-[Scan Results (interactive)](scans/Volume_Gainers__interactive.html)
+[Show Charts](scans/Volume_Gainers__static.html)
 
-### 52W High
+[Show Interactive Charts (may be slow)](scans/Volume_Gainers__interactive.html)
+
+
+## 52W High
         
 
 ```python
@@ -129,12 +164,16 @@ close>4 AND sma(50,volume)>200000 AND sma(50,volume)*close>2000000 AND close=max
 # Sort by
 volume/sma(50,volume)
 ```
+[Show Minicharts](scans/52W_High__static__mini.html)
 
-[Scan Results (static)](scans/52W_High__static.html)
+[Show Interactive Minicharts (may be slow)](scans/52W_High__static__mini.html)
 
-[Scan Results (interactive)](scans/52W_High__interactive.html)
+[Show Charts](scans/52W_High__static.html)
 
-### Bens Power of 3
+[Show Interactive Charts (may be slow)](scans/52W_High__interactive.html)
+
+
+## Bens Power of 3
         
 
 ```python
@@ -144,12 +183,16 @@ close>4 AND sma(50,volume)>200000 AND sma(50,volume)*close>2000000 AND close/ema
 # Sort by
 ibd_rs
 ```
+[Show Minicharts](scans/Bens_Power_of_3__static__mini.html)
 
-[Scan Results (static)](scans/Bens_Power_of_3__static.html)
+[Show Interactive Minicharts (may be slow)](scans/Bens_Power_of_3__static__mini.html)
 
-[Scan Results (interactive)](scans/Bens_Power_of_3__interactive.html)
+[Show Charts](scans/Bens_Power_of_3__static.html)
 
-### Bens Velocity
+[Show Interactive Charts (may be slow)](scans/Bens_Power_of_3__interactive.html)
+
+
+## Bens Velocity
         
 
 ```python
@@ -159,12 +202,16 @@ close>4 AND sma(50,volume)>200000 AND sma(50,volume)*close>2000000 AND close/clo
 # Sort by
 ibd_rs_3m
 ```
+[Show Minicharts](scans/Bens_Velocity__static__mini.html)
 
-[Scan Results (static)](scans/Bens_Velocity__static.html)
+[Show Interactive Minicharts (may be slow)](scans/Bens_Velocity__static__mini.html)
 
-[Scan Results (interactive)](scans/Bens_Velocity__interactive.html)
+[Show Charts](scans/Bens_Velocity__static.html)
 
-### Bens Focus
+[Show Interactive Charts (may be slow)](scans/Bens_Velocity__interactive.html)
+
+
+## Bens Focus
         
 
 ```python
@@ -174,12 +221,16 @@ close>4 AND sma(50,volume)>200000 AND sma(50,volume)*close>2000000 AND ibd_indus
 # Sort by
 ibd_rs_3m
 ```
+[Show Minicharts](scans/Bens_Focus__static__mini.html)
 
-[Scan Results (static)](scans/Bens_Focus__static.html)
+[Show Interactive Minicharts (may be slow)](scans/Bens_Focus__static__mini.html)
 
-[Scan Results (interactive)](scans/Bens_Focus__interactive.html)
+[Show Charts](scans/Bens_Focus__static.html)
 
-### Blake Davis Strength
+[Show Interactive Charts (may be slow)](scans/Bens_Focus__interactive.html)
+
+
+## Blake Davis Strength
         
 
 ```python
@@ -189,12 +240,16 @@ close>7 AND sma(50,volume)>200000 AND sma(50,volume)*close>2000000 AND ibd_rs_ra
 # Sort by
 ibd_rs_3m
 ```
+[Show Minicharts](scans/Blake_Davis_Strength__static__mini.html)
 
-[Scan Results (static)](scans/Blake_Davis_Strength__static.html)
+[Show Interactive Minicharts (may be slow)](scans/Blake_Davis_Strength__static__mini.html)
 
-[Scan Results (interactive)](scans/Blake_Davis_Strength__interactive.html)
+[Show Charts](scans/Blake_Davis_Strength__static.html)
 
-### RSNHBP
+[Show Interactive Charts (may be slow)](scans/Blake_Davis_Strength__interactive.html)
+
+
+## RSNHBP
         
 
 ```python
@@ -204,12 +259,16 @@ rs=max(252,rs) AND sma(50,volume)>200000 AND sma(50,volume)*close>2000000
 # Sort by
 close/min(63)
 ```
+[Show Minicharts](scans/RSNHBP__static__mini.html)
 
-[Scan Results (static)](scans/RSNHBP__static.html)
+[Show Interactive Minicharts (may be slow)](scans/RSNHBP__static__mini.html)
 
-[Scan Results (interactive)](scans/RSNHBP__interactive.html)
+[Show Charts](scans/RSNHBP__static.html)
 
-### EP with Growth
+[Show Interactive Charts (may be slow)](scans/RSNHBP__interactive.html)
+
+
+## EP with Growth
         
 
 ```python
@@ -219,12 +278,16 @@ close>4 AND sma(20)>sma(50) AND close>sma(50) AND sma(50,volume)>200000 AND sma(
 # Sort by
 volume/sma(50,volume)
 ```
+[Show Minicharts](scans/EP_with_Growth__static__mini.html)
 
-[Scan Results (static)](scans/EP_with_Growth__static.html)
+[Show Interactive Minicharts (may be slow)](scans/EP_with_Growth__static__mini.html)
 
-[Scan Results (interactive)](scans/EP_with_Growth__interactive.html)
+[Show Charts](scans/EP_with_Growth__static.html)
 
-### EP
+[Show Interactive Charts (may be slow)](scans/EP_with_Growth__interactive.html)
+
+
+## EP
         
 
 ```python
@@ -234,12 +297,16 @@ close>4 AND sma(20)>sma(50) AND close>sma(50) AND sma(50,volume)>200000 AND sma(
 # Sort by
 volume/sma(50,volume)
 ```
+[Show Minicharts](scans/EP__static__mini.html)
 
-[Scan Results (static)](scans/EP__static.html)
+[Show Interactive Minicharts (may be slow)](scans/EP__static__mini.html)
 
-[Scan Results (interactive)](scans/EP__interactive.html)
+[Show Charts](scans/EP__static.html)
 
-### Bradass Pocket Pivot EOD
+[Show Interactive Charts (may be slow)](scans/EP__interactive.html)
+
+
+## Bradass Pocket Pivot EOD
         
 
 ```python
@@ -249,12 +316,16 @@ close>3 AND sma(50,volume)>200000 AND sma(50,volume)*close>2000000 AND volume>em
 # Sort by
 volume/sma(50,volume)
 ```
+[Show Minicharts](scans/Bradass_Pocket_Pivot_EOD__static__mini.html)
 
-[Scan Results (static)](scans/Bradass_Pocket_Pivot_EOD__static.html)
+[Show Interactive Minicharts (may be slow)](scans/Bradass_Pocket_Pivot_EOD__static__mini.html)
 
-[Scan Results (interactive)](scans/Bradass_Pocket_Pivot_EOD__interactive.html)
+[Show Charts](scans/Bradass_Pocket_Pivot_EOD__static.html)
 
-### Stockbees 4% Gainers
+[Show Interactive Charts (may be slow)](scans/Bradass_Pocket_Pivot_EOD__interactive.html)
+
+
+## Stockbees 4% Gainers
         
 
 ```python
@@ -262,14 +333,18 @@ volume/sma(50,volume)
 close>4 AND close/close(1)>1.04 AND close(1)-open(1)<close-open AND close(1)/close(2)<=1.02 AND sma(50,volume)>200000 AND volume>volume(1) AND close-low>0.7*high-0.7*low
 
 # Sort by
-roc
+close/close(1)
 ```
+[Show Minicharts](scans/Stockbees_4%_Gainers__static__mini.html)
 
-[Scan Results (static)](scans/Stockbees_4%_Gainers__static.html)
+[Show Interactive Minicharts (may be slow)](scans/Stockbees_4%_Gainers__static__mini.html)
 
-[Scan Results (interactive)](scans/Stockbees_4%_Gainers__interactive.html)
+[Show Charts](scans/Stockbees_4%_Gainers__static.html)
 
-### Stockbees Combo
+[Show Interactive Charts (may be slow)](scans/Stockbees_4%_Gainers__interactive.html)
+
+
+## Stockbees Combo
         
 
 ```python
@@ -277,14 +352,18 @@ roc
 close-open>0.9 AND volume>200000 AND close(1)-open(1)<close-open AND close(1)/close(2)<1.02 AND close-low>0.7*high-0.7*low AND close>3 OR close>4 AND close/close(1)>1.04 AND close(1)/close(2)<=1.02 AND volume>200000 AND volume>volume(1) AND close-low>0.7*high-0.7*low AND close>3
 
 # Sort by
-roc
+close/close(1)
 ```
+[Show Minicharts](scans/Stockbees_Combo__static__mini.html)
 
-[Scan Results (static)](scans/Stockbees_Combo__static.html)
+[Show Interactive Minicharts (may be slow)](scans/Stockbees_Combo__static__mini.html)
 
-[Scan Results (interactive)](scans/Stockbees_Combo__interactive.html)
+[Show Charts](scans/Stockbees_Combo__static.html)
 
-### Stockbees Ants
+[Show Interactive Charts (may be slow)](scans/Stockbees_Combo__interactive.html)
+
+
+## Stockbees Ants
         
 
 ```python
@@ -294,12 +373,16 @@ close>3 AND min(3,volume)>100000 AND ti>1.04 AND close/close(1)>=-1 AND close/cl
 # Sort by
 close/close(1)
 ```
+[Show Minicharts](scans/Stockbees_Ants__static__mini.html)
 
-[Scan Results (static)](scans/Stockbees_Ants__static.html)
+[Show Interactive Minicharts (may be slow)](scans/Stockbees_Ants__static__mini.html)
 
-[Scan Results (interactive)](scans/Stockbees_Ants__interactive.html)
+[Show Charts](scans/Stockbees_Ants__static.html)
 
-### Stockbees Breakout 3M Base
+[Show Interactive Charts (may be slow)](scans/Stockbees_Ants__interactive.html)
+
+
+## Stockbees Breakout 3M Base
         
 
 ```python
@@ -309,12 +392,16 @@ close(1)/min(63)<=1.1 AND close/max(63)>=0.9 AND close/close(1)>=1.04 AND volume
 # Sort by
 close/min(126)
 ```
+[Show Minicharts](scans/Stockbees_Breakout_3M_Base__static__mini.html)
 
-[Scan Results (static)](scans/Stockbees_Breakout_3M_Base__static.html)
+[Show Interactive Minicharts (may be slow)](scans/Stockbees_Breakout_3M_Base__static__mini.html)
 
-[Scan Results (interactive)](scans/Stockbees_Breakout_3M_Base__interactive.html)
+[Show Charts](scans/Stockbees_Breakout_3M_Base__static.html)
 
-### Stockbees Breakout 1M Base
+[Show Interactive Charts (may be slow)](scans/Stockbees_Breakout_3M_Base__interactive.html)
+
+
+## Stockbees Breakout 1M Base
         
 
 ```python
@@ -324,12 +411,16 @@ close(1)/min(21)<=1.1 AND close/max(21)>=0.9 AND close/close(1)>=1.04 AND volume
 # Sort by
 close/min(63)
 ```
+[Show Minicharts](scans/Stockbees_Breakout_1M_Base__static__mini.html)
 
-[Scan Results (static)](scans/Stockbees_Breakout_1M_Base__static.html)
+[Show Interactive Minicharts (may be slow)](scans/Stockbees_Breakout_1M_Base__static__mini.html)
 
-[Scan Results (interactive)](scans/Stockbees_Breakout_1M_Base__interactive.html)
+[Show Charts](scans/Stockbees_Breakout_1M_Base__static.html)
 
-### Darvas Scan
+[Show Interactive Charts (may be slow)](scans/Stockbees_Breakout_1M_Base__interactive.html)
+
+
+## Darvas Scan
         
 
 ```python
@@ -339,12 +430,16 @@ close>4 AND close/max(252)>0.85 AND close/min(252)>=2 AND ibd_sect_rs_rank>80 AN
 # Sort by
 close/min(252)
 ```
+[Show Minicharts](scans/Darvas_Scan__static__mini.html)
 
-[Scan Results (static)](scans/Darvas_Scan__static.html)
+[Show Interactive Minicharts (may be slow)](scans/Darvas_Scan__static__mini.html)
 
-[Scan Results (interactive)](scans/Darvas_Scan__interactive.html)
+[Show Charts](scans/Darvas_Scan__static.html)
 
-### Darvas Scan with Growth
+[Show Interactive Charts (may be slow)](scans/Darvas_Scan__interactive.html)
+
+
+## Darvas Scan with Growth
         
 
 ```python
@@ -354,12 +449,16 @@ close>4 AND close/max(252)>0.85 AND close/min(252)>=2 AND ibd_sect_rs_rank>80 AN
 # Sort by
 close/min(252)
 ```
+[Show Minicharts](scans/Darvas_Scan_with_Growth__static__mini.html)
 
-[Scan Results (static)](scans/Darvas_Scan_with_Growth__static.html)
+[Show Interactive Minicharts (may be slow)](scans/Darvas_Scan_with_Growth__static__mini.html)
 
-[Scan Results (interactive)](scans/Darvas_Scan_with_Growth__interactive.html)
+[Show Charts](scans/Darvas_Scan_with_Growth__static.html)
 
-### Insiders
+[Show Interactive Charts (may be slow)](scans/Darvas_Scan_with_Growth__interactive.html)
+
+
+## Insiders
         
 
 ```python
@@ -369,12 +468,16 @@ close>4 AND close<20 AND sma(50,volume)>200000 AND sma(50,volume)*close>2000000 
 # Sort by
 close/min(252)
 ```
+[Show Minicharts](scans/Insiders__static__mini.html)
 
-[Scan Results (static)](scans/Insiders__static.html)
+[Show Interactive Minicharts (may be slow)](scans/Insiders__static__mini.html)
 
-[Scan Results (interactive)](scans/Insiders__interactive.html)
+[Show Charts](scans/Insiders__static.html)
 
-### High Trend Intensity
+[Show Interactive Charts (may be slow)](scans/Insiders__interactive.html)
+
+
+## High Trend Intensity
         
 
 ```python
@@ -384,23 +487,30 @@ close>4 AND close<20 AND sma(50,volume)>200000 AND sma(50,volume)*close>2000000 
 # Sort by
 close/min(126)
 ```
+[Show Minicharts](scans/High_Trend_Intensity__static__mini.html)
 
-[Scan Results (static)](scans/High_Trend_Intensity__static.html)
+[Show Interactive Minicharts (may be slow)](scans/High_Trend_Intensity__static__mini.html)
 
-[Scan Results (interactive)](scans/High_Trend_Intensity__interactive.html)
+[Show Charts](scans/High_Trend_Intensity__static.html)
 
-### HTF
+[Show Interactive Charts (may be slow)](scans/High_Trend_Intensity__interactive.html)
+
+
+## HTF
         
 
 ```python
 # Query
-close>4 AND sma(20,volume)>250000 AND slope(10,sma(50,volume))<0 AND close>sma(50) AND sma(50)>sma(200) AND slope(10,sma(200))>0 AND close/min(40)>1.9 AND roc(60)>50 AND natr(14)<8 AND slope(10,natr(14))<0
+close>4 AND sma(20,volume)>250000 AND slope(10,sma(50,volume))<0 AND close>sma(50) AND sma(50)>sma(200) AND slope(10,sma(200))>0 AND close/min(40)>1.9 AND close/close(1)(60)>50 AND natr(14)<8 AND slope(10,natr(14))<0
 
 # Sort by
 sctr
 ```
+[Show Minicharts](scans/HTF__static__mini.html)
 
-[Scan Results (static)](scans/HTF__static.html)
+[Show Interactive Minicharts (may be slow)](scans/HTF__static__mini.html)
 
-[Scan Results (interactive)](scans/HTF__interactive.html)
+[Show Charts](scans/HTF__static.html)
+
+[Show Interactive Charts (may be slow)](scans/HTF__interactive.html)
 
