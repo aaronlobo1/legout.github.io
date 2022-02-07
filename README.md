@@ -1,6 +1,8 @@
 # Legouts Stockmarket Scans
 
 <a href='https://ko-fi.com/W7W0ACJPB' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi5.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+
+    
 ## Biggest Gainers 1M
         
 
@@ -91,10 +93,10 @@ close/close(5)
 
 ```python
 # Query
-close>4 AND sma(50,volume)>200000 AND sma(50,volume)*close>2000000 AND close/close(1)>2
+close>4 AND sma(50,volume)>200000 AND sma(50,volume)*close>2000000 AND close/close(1)>1.02
 
 # Sort by
-close/close(1)
+roc
 ```
 [Show Minicharts](scans/Top_Gainers__static__mini.html)
 
@@ -108,7 +110,7 @@ close/close(1)
 
 ```python
 # Query
-close>4 AND sma(50,volume)>200000 AND sma(50,volume)*close>2000000 AND close/close(1)>2
+close>4 AND sma(50,volume)>200000 AND sma(50,volume)*close>2000000 AND close/close(1)>1.02
 
 # Sort by
 close/open
@@ -125,7 +127,7 @@ close/open
 
 ```python
 # Query
-close>4 AND sma(50,volume)>200000 AND sma(50,volume)*close>2000000 AND close/close(1)>0 AND volume/sma(50,volume)>2
+close>4 AND sma(50,volume)>200000 AND sma(50,volume)*close>2000000 AND close/close(1)>1 AND volume/sma(50,volume)>2
 
 # Sort by
 volume/sma(50,volume)
@@ -222,21 +224,89 @@ ibd_rs_3m
 [Show Interactive Charts (may be slow)](scans/Blake_Davis_Strength__interactive.html)
 
 
-## RSNHBP
+## RSNHBP 12M
         
 
 ```python
 # Query
-rs=max(252,rs) AND sma(50,volume)>200000 AND sma(50,volume)*close>2000000
+rs=max(252,rs) AND close>max(252) AND sma(50,volume)>200000 AND sma(50,volume)*close>2000000
 
 # Sort by
 close/min(63)
 ```
-[Show Minicharts](scans/RSNHBP__static__mini.html)
+[Show Minicharts](scans/RSNHBP_12M__static__mini.html)
 
-[Show Charts](scans/RSNHBP__static.html)
+[Show Charts](scans/RSNHBP_12M__static.html)
 
-[Show Interactive Charts (may be slow)](scans/RSNHBP__interactive.html)
+[Show Interactive Charts (may be slow)](scans/RSNHBP_12M__interactive.html)
+
+
+## RSNHBP 1M
+        
+
+```python
+# Query
+rs=max(21,rs) AND close>max(21) AND sma(50,volume)>200000 AND sma(50,volume)*close>2000000
+
+# Sort by
+close/min(63)
+```
+[Show Minicharts](scans/RSNHBP_1M__static__mini.html)
+
+[Show Charts](scans/RSNHBP_1M__static.html)
+
+[Show Interactive Charts (may be slow)](scans/RSNHBP_1M__interactive.html)
+
+
+## RSNHBP 3M
+        
+
+```python
+# Query
+rs=max(63,rs) AND close>max(63) AND sma(50,volume)>200000 AND sma(50,volume)*close>2000000
+
+# Sort by
+close/min(63)
+```
+[Show Minicharts](scans/RSNHBP_3M__static__mini.html)
+
+[Show Charts](scans/RSNHBP_3M__static.html)
+
+[Show Interactive Charts (may be slow)](scans/RSNHBP_3M__interactive.html)
+
+
+## RSNHBP 6M
+        
+
+```python
+# Query
+rs=max(126,rs) AND close>max(126) AND sma(50,volume)>200000 AND sma(50,volume)*close>2000000
+
+# Sort by
+close/min(63)
+```
+[Show Minicharts](scans/RSNHBP_6M__static__mini.html)
+
+[Show Charts](scans/RSNHBP_6M__static.html)
+
+[Show Interactive Charts (may be slow)](scans/RSNHBP_6M__interactive.html)
+
+
+## RSNHBP 5D
+        
+
+```python
+# Query
+rs=max(252,rs) AND close>max(252) AND sma(50,volume)>200000 AND sma(50,volume)*close>2000000
+
+# Sort by
+close/min(63)
+```
+[Show Minicharts](scans/RSNHBP_5D__static__mini.html)
+
+[Show Charts](scans/RSNHBP_5D__static.html)
+
+[Show Interactive Charts (may be slow)](scans/RSNHBP_5D__interactive.html)
 
 
 ## EP with Growth
@@ -298,7 +368,7 @@ volume/sma(50,volume)
 close>4 AND close/close(1)>1.04 AND close(1)-open(1)<close-open AND close(1)/close(2)<=1.02 AND sma(50,volume)>200000 AND volume>volume(1) AND close-low>0.7*high-0.7*low
 
 # Sort by
-close/close(1)
+roc
 ```
 [Show Minicharts](scans/Stockbees_4%_Gainers__static__mini.html)
 
@@ -315,7 +385,7 @@ close/close(1)
 close-open>0.9 AND volume>200000 AND close(1)-open(1)<close-open AND close(1)/close(2)<1.02 AND close-low>0.7*high-0.7*low AND close>3 OR close>4 AND close/close(1)>1.04 AND close(1)/close(2)<=1.02 AND volume>200000 AND volume>volume(1) AND close-low>0.7*high-0.7*low AND close>3
 
 # Sort by
-close/close(1)
+roc
 ```
 [Show Minicharts](scans/Stockbees_Combo__static__mini.html)
 
@@ -329,10 +399,10 @@ close/close(1)
 
 ```python
 # Query
-close>3 AND min(3,volume)>100000 AND ti>1.04 AND close/close(1)>=-1 AND close/close(1)<=1
+close>3 AND min(3,volume)>100000 AND ti>1.04 AND close/close(1)>=-1.01 AND close/close(1)<=1.01
 
 # Sort by
-close/close(1)
+roc
 ```
 [Show Minicharts](scans/Stockbees_Ants__static__mini.html)
 
@@ -448,7 +518,7 @@ close/min(126)
 
 ```python
 # Query
-close>4 AND sma(20,volume)>250000 AND slope(10,sma(50,volume))<0 AND close>sma(50) AND sma(50)>sma(200) AND slope(10,sma(200))>0 AND close/min(40)>1.9 AND close/close(1)(60)>50 AND natr(14)<8 AND slope(10,natr(14))<0
+close>4 AND sma(20,volume)>250000 AND slope(10,sma(50,volume))<0 AND close>sma(50) AND sma(50)>sma(200) AND slope(10,sma(200))>0 AND close/min(40)>1.9 AND roc(60)>50 AND natr(14)<8 AND slope(10,natr(14))<0
 
 # Sort by
 sctr
